@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         return label
     }()
     
-    override func viewDidLoad() {   
+    override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
     }
