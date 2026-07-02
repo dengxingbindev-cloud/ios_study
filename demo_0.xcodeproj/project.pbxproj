@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		626C2DC42FF4CCEF008BF7AD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 626C2DC32FF4CCEF008BF7AD /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		626C2DA42FF4A95E008BF7AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626C2DC42FF4CCEF008BF7AD /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = demo_0;
 			packageProductDependencies = (
+				626C2DC32FF4CCEF008BF7AD /* SnapKit */,
 			);
 			productName = demo_0;
 			productReference = 626C2D8D2FF4A95D008BF7AD /* demo_0.app */;
@@ -209,7 +215,7 @@
 			mainGroup = 626C2D842FF4A95D008BF7AD;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				626C2DC12FF4BB0C008BF7AD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				626C2DC22FF4CCEF008BF7AD /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 626C2D8E2FF4A95D008BF7AD /* Products */;
@@ -588,7 +594,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		626C2DC12FF4BB0C008BF7AD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		626C2DC22FF4CCEF008BF7AD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -597,6 +603,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		626C2DC32FF4CCEF008BF7AD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 626C2DC22FF4CCEF008BF7AD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 626C2D852FF4A95D008BF7AD /* Project object */;
 }
