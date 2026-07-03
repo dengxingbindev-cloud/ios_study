@@ -57,6 +57,7 @@ class PersonalHomepageController: UIViewController {
         let btn = UIButton(type: .system)
         btn.setTitle("关注",for: .normal)
         btn.setTitleColor(.white,for:.normal)
+        btn.titleLabel?.font = UIFont.systemFont(ofSize: 25)
         btn.backgroundColor = .systemBlue
         btn.layer.cornerRadius = 8
         return btn
@@ -88,7 +89,7 @@ class PersonalHomepageController: UIViewController {
         }
         
         userAvator.snp.makeConstraints { make in
-            make.top.equalTo(titleLabel.snp.bottom).offset(80)
+            make.top.equalTo(titleLabel.snp.bottom).offset(60)
             //make.left.right.equalToSuperview().inset(100)
             make.width.equalTo(120)
             make.height.equalTo(userAvator.snp.width)
@@ -103,13 +104,13 @@ class PersonalHomepageController: UIViewController {
         }
         
         aboutView.snp.makeConstraints { make in
-            make.top.equalTo(nicknameLabel.snp.bottom).offset(40)
+            make.top.equalTo(nicknameLabel.snp.bottom).offset(80)
             make.left.right.equalToSuperview().inset(20)
             make.centerX.equalToSuperview()
         }
         
         followButton.snp.makeConstraints { make in
-            make.top.equalTo(aboutView.snp.bottom).offset(100)
+            make.top.equalTo(aboutView.snp.bottom).offset(120)
             make.height.equalTo(50)
             make.width.equalTo(120)
             make.centerX.equalToSuperview()
@@ -118,7 +119,4 @@ class PersonalHomepageController: UIViewController {
     
 }
 
-#Preview {
-    PersonalHomepageController()
-}
 

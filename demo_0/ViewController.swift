@@ -98,7 +98,3 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(vc,animated:true)
     }
 }
-
-#Preview {
-    ViewController()
-}
